@@ -6,7 +6,7 @@ export default async function ipapi(ip, lang) {
 
 	if (!langs.includes(lang)) throw 'unknown language, supported ones are: ' + langs.join(', ')
 
-	const data = await fetch('http://ip-api.com/json/' + ip + '?lang=' + lang + '&fields=66846719')
+	const data = await fetch('http://ip-api.com/json/' + ip + '?lang=' + lang + '&fields=66842623')
 
 	return data.json()
 }
