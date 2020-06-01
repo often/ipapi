@@ -3,7 +3,7 @@ Simple ip-api.com API wrapper for Deno.
 
 ## Usage
 ```js
-import ipapi from './mod.js' // import the ipapi module
+import ipapi from 'https://deno.land/x/ipapi/mod.js' // import the ipapi module
 
 console.log(await ipapi()) // returns information about your ip address
 console.log(await ipapi('1.1.1.1')) // {"status":"success","continent":"Oceania","continentCode":"OC","country":"Australia","countryCode":"AU","region":"NSW","regionName":"New South Wales","city":"Sydney","district":"","zip":"1001","lat":-33.8688,"lon":151.209,"timezone":"Australia/Sydney","offset":36000,"currency":"AUD","isp":"Cloudflare, Inc.","org":"","as":"AS13335 Cloudflare, Inc.","asname":"CLOUDFLARENET","reverse":"one.one.one.one","mobile":false,"proxy":false,"hosting":true,"query":"1.1.1.1"}
