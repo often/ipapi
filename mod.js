@@ -1,6 +1,6 @@
 export default async function ipapi(ip, lang) {
-	if (!ip) ip = ''
-	if (!lang) lang = 'en'
+	ip = ip || ''
+	lang = lang || 'en'
 
 	const langs = ['en', 'de', 'es', 'pt-BR', 'fr', 'ja', 'zh-CN', 'ru']
 
